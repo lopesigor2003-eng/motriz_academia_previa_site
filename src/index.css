@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #000000;
+    --bg-surface: #0a0a0d;
+    --bg-card: #111115;
+    --bg-card-hover: #17171d;
+    --text-primary: #ffffff;
+    --text-secondary: #d1d5db;
+    --text-muted: #9ca3af;
+    --brand-primary: #f0222a;
+    --brand-hover: #d81b22;
+    --brand-glow: rgba(240, 34, 42, 0.25);
+    --border-subtle: rgba(255, 255, 255, 0.1);
+    --border-focus: rgba(240, 34, 42, 0.6);
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Glassmorphism subtle surface utility */
+.glass-surface {
+  background: rgba(17, 17, 21, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-nav {
+  background: rgba(0, 0, 0, 0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Red accent glow on hover */
+.hover-brand-glow {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.hover-brand-glow:hover {
+  border-color: rgba(240, 34, 42, 0.45);
+  box-shadow: 0 0 24px rgba(240, 34, 42, 0.18);
+}
+
+@keyframes progress {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f0222a;
+}

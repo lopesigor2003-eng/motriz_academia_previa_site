@@ -1,0 +1,6 @@
+{
+  "name": "Motriz Academia | Treine com Qualidade",
+  "description": "Motriz Academia em Santa Maria, RS. Treinamento de qualidade, atendimento proativo e foco no bem-estar. Mais de 100 avaliações positivas. Sua jornada de saúde começa aqui!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
