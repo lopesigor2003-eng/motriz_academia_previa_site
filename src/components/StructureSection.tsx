@@ -75,9 +75,6 @@ export const StructureSection: React.FC = () => {
     }
 
     return (
-      <div className="w-full h-full min-h-[420px] relative overflow-hidden bg-gradient-to-br from-zinc-900 via-zinc-950 to-black flex items-center justify-center rounded-2xl">
-        <div className="absolute inset-0 bg-[radial-gradient(#f0222a_1px,transparent_1px)] [background-size:24px_24px] opacity-15" />
-        <div className="w-24 h-24 rounded-2xl bg-black/60 border border-[#f0222a]/40 text-[#f0222a] flex items-center justify-center shadow-xl backdrop-blur-md">
           {icon}
         </div>
       </div>
