@@ -75,7 +75,6 @@ export const StructureSection: React.FC = () => {
     }
 
     return (
-          {icon}
         </div>
       </div>
     );
