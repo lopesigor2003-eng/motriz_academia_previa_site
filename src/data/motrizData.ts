@@ -6,11 +6,6 @@ export interface GalleryImage {
 
 export const GALLERY_IMAGES: GalleryImage[] = [
   {
-    id: 1,
-    url: 'https://lh3.googleusercontent.com/grass-cs/AABkmLde3jp_6MMiFEPSwy5RMM63_ncrs8AFShBP863paCP2W2u40uo9RKlFFPtxNmAW4jei0Hi4VXU6J_JKGPeyqRhuGsUChrHkMMOZI55d4sKdIGD4iWbeoHyJJoUxSWatyoSE4KqF=w114-h86-k-no',
-    alt: 'Fachada e Recepção Motriz Academia',
-  },
-  {
     id: 2,
     url: 'https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q2EBcje24XGPgs8VPk8P_bCuVfFXogE0j5xpYT_91onG4PDHASa4f6sqqHGZyJY5XXTHNmMA5Ag9N86cpc5TZzOYC4KT9Jq8D5Kz0KCF9jedRi7Lg92Yo8RUFR1yqmNC61dl-I=s1600',
     alt: 'Área de Musculação e Aparelhos Motriz Academia',

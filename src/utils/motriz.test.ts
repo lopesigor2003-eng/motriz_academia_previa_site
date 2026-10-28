@@ -42,10 +42,10 @@ test('buildWhatsAppUrl properly formats and encodes params', () => {
 });
 
 test('getNextCarouselIndex loops correctly forward and backward', () => {
-  assert.equal(getNextCarouselIndex(0, 9, 'next'), 1);
-  assert.equal(getNextCarouselIndex(8, 9, 'next'), 0);
-  assert.equal(getNextCarouselIndex(0, 9, 'prev'), 8);
-  assert.equal(getNextCarouselIndex(5, 9, 'prev'), 4);
+  assert.equal(getNextCarouselIndex(0, 8, 'next'), 1);
+  assert.equal(getNextCarouselIndex(7, 8, 'next'), 0);
+  assert.equal(getNextCarouselIndex(0, 8, 'prev'), 7);
+  assert.equal(getNextCarouselIndex(5, 8, 'prev'), 4);
 });
 
 test('checkGymOperatingStatus identifies open vs closed based on schedule', () => {
